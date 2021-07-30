@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box"><h1>Lottery Number Generator</h1>
+        <div><h2>Select each ball to reveal your numbers!</h2></div>
+        <div id="ballRow">
+            <div class="container">
+                <img id="firstBall" src="white_ball.png" alt="white ball" onclick="newWhiteNum(this.id)">
+                <div class="text-block" id="firstNum"></div>
+            </div>
+            <div class="container">
+                <img id="secondBall" src="white_ball.png" alt="white ball" onclick="newWhiteNum(this.id)">
+                <div class="text-block" id="secondNum"></div>
+            </div>
+            <div class="container">
+                <img id="thirdBall" src="white_ball.png" alt="white ball" onclick="newWhiteNum(this.id)">
+                <div class="text-block" id="thirdNum"></div>
+            </div>
+            <div class="container">
+                <img id="fourthBall" src="white_ball.png" alt="white ball" onclick="newWhiteNum(this.id)">
+                <div class="text-block" id="fourthNum"></div>
+            </div>
+            <div class="container">
+                <img id="fifthBall" src="white_ball.png" alt="white ball" onclick="newWhiteNum(this.id)">
+                <div class="text-block" id="fifthNum"></div>
+            </div>
+            
+            <div class="container">
+                <img id="powerBall" src="red_ball.png" alt="red ball" onclick="newPowerBallNum()">
+                <div class="text-block" id="powerNum"></div>
+            </div>
+        </div> 
+        <div>
+            <input class="button" onclick="generateAll()" type="button" name="genAll" value="Generate All">
+            <input class="button" onclick="reset()" type="button" name="reset" value="Reset">
+        </div>
+    </div>
+    <script src="final.js"></script>
+</body>
+</html>

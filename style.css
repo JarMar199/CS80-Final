@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background_lottery.png) no-repeat;
+    background-size: cover;
+  }
+
+h1 {
+    font-size: 5em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px gray;
+}
+
+.button {
+    border-radius: 2em;
+    padding: .5em 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
+    margin: 15px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+#ballRow {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 90px;
+    max-height: 90px;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 10px;
+    opacity: .5;
+}
+
+img:hover {
+    opacity: .7;
+}
+
+.box {
+    width: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+.text-block {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.container {
+    position: relative;
+}
+
+#powerNum {
+    text-shadow: 1px 1px white;
+}
